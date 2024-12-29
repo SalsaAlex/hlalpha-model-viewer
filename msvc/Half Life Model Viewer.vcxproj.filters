@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\ControlPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FileAssociation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GlWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mdlviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ViewerSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\cmdlib.c">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\mathlib.c">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\filesys.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\pathutils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\strlcat.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\strlcpy.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\studio\StudioModel.cpp">
+      <Filter>studio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StudioRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\mdlmath.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ViewerSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ControlPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FileAssociation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GlWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mdlviewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\cmdlib.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\mathlib.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\filesys.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\pathutils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\safestr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\studio\studio.h">
+      <Filter>studio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\studio\StudioModel.h">
+      <Filter>studio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StudioRender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\mdlmath.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\src\readme.txt" />
+    <CustomBuild Include="..\src\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84b93bd2-d919-4371-87e6-1762ccbdc666}</UniqueIdentifier>
+      <Extensions>*.cpp *.c</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{18389d0b-131c-4d93-a75d-955f6ec6c8a9}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{80c93958-cf2d-4382-86bf-c29cb085e5c9}</UniqueIdentifier>
+      <Extensions>*.rc *.ico</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{65b786d8-7148-4419-ba12-c3e278f565cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{d7bd2468-b281-496c-9d0d-3697a80d8e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="studio">
+      <UniqueIdentifier>{101a41db-74a1-4b49-98fa-a91564f801b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\hlmviewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

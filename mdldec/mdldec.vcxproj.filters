@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b6c3d0b3-8369-46a0-b18c-40408f6622c2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{695e3208-ee4c-4602-b6a2-45f391ca3e8a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{4b65cfa6-2b0b-4f8c-a531-c571bf230994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{6ccf66e4-919d-4e19-9a49-5c6c411a37b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="studio">
+      <UniqueIdentifier>{07dde308-4d34-415c-9169-9e48c697854d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mdldec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\cmdlib.c">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\mathlib.c">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\filesys.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\pathutils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\strlcat.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\strlcpy.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\studio\StudioModel.cpp">
+      <Filter>studio</Filter>
+    </ClCompile>
+    <ClCompile Include="fileout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smdfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\mdlmath.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sdk\cmdlib.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\mathlib.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\filesys.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\pathutils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\safestr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\studio\studio.h">
+      <Filter>studio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\studio\StudioModel.h">
+      <Filter>studio</Filter>
+    </ClInclude>
+    <ClInclude Include="fileout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smdfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\mdlmath.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
